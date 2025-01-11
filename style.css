@@ -164,6 +164,13 @@ body {
   background-color: #5490f5;
   color: #ffffff;
   font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.vision-btn-1:hover {
+  background-color: tomato;
+  color: black;
 }
 
 .vision-card-2 {
@@ -180,6 +187,12 @@ body {
   background-color: #09a15c;
   color: #ffffff;
   font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.vision-btn-2:hover {
+  background-color: tomato;
+  color: black;
 }
 .vision-card-3 {
   background-color: #f7ebcf;
@@ -195,6 +208,12 @@ body {
   background-color: #ffc239;
   color: #ffffff;
   font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.vision-btn-3:hover {
+  background-color: tomato;
+  color: black;
 }
 /* vision section ends */
 /* quote section starts */
@@ -400,24 +419,24 @@ body {
 
 /* footer section starts */
 footer {
-    background-color: #ffffff;
-    padding: 40px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
+  background-color: #ffffff;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
-.line{
-    height: 1px;
-    width: 950px;
-    text-align: center;
-    border-top: 1px solid rgb(247, 247, 247);
+.line {
+  height: 1px;
+  width: 950px;
+  text-align: center;
+  border-top: 1px solid rgb(247, 247, 247);
 }
 
-.icons{
-    display: flex;
-    gap: 15px;
+.icons {
+  display: flex;
+  gap: 15px;
 }
 /* footer section ends */
