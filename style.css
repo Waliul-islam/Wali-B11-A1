@@ -198,3 +198,25 @@ body{
     font-size: 20px;
 }
 /* vision section ends */
+/* quote section starts */
+.quote{
+    margin: 60px 0;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 50px 40px;  
+    border: 1px solid #bdbcbc80; 
+    position: relative;
+}
+
+.quote-mark{
+    color: #0E0E0E;
+    position: absolute;
+    top: 30px;
+}
+.quote h5 {
+    color: #0E0E0ECC;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* quote section ends */
