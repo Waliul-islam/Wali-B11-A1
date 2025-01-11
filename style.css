@@ -100,3 +100,101 @@ body{
     min-height: 480px;
 }
 /* banner section starts */
+/* pillars section starts */
+.section-heading{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.pillars{
+    margin: 56px 0;
+}
+.pillar-cards{
+    display: flex;
+    gap: 25px;
+}
+
+.pillar-card{
+    background-color:#FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    /* min-width: 362px; */
+    
+}
+
+.pillar-card h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.normal-text{
+    color: # #0E0E0EB2;
+    opacity: 70%;
+    font-size: 20px; 
+    line-height: 28px; 
+}
+/* pillars section ends */
+
+/* vision section starts */
+.vision-cards{
+    margin: 50px 0;
+    display: flex;
+    gap: 25px;
+}
+
+.vision-card-1{
+    background-color:#ccdbf7;
+    padding: 38px; 
+    border-radius: 25px;
+    width:492px;
+}
+
+.card-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.vision-btn-1{
+    padding: 14px 25px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 50px;
+    background-color: #5490F5;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.vision-card-2{
+    background-color:#C6E4D6;
+    padding: 38px; 
+    border-radius: 25px; 
+    width:492px;
+}
+.vision-btn-2{
+    padding: 14px 25px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 50px;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.vision-card-3{
+    background-color:#F7EBCF;
+    padding: 38px; 
+    border-radius: 25px;  
+    width:492px;
+}
+.vision-btn-3{
+    padding: 14px 25px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 50px;
+    background-color:#FFC239;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/* vision section ends */
