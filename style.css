@@ -13,9 +13,10 @@
   text-decoration: none;
 }
 
-body {
+body{
   background-color: #f5f5f5;
-  margin: 50px 200px;
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
 /* header section starts */
@@ -24,6 +25,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 3.5rem;
 }
 .logo {
   color: #0e0e0e;
@@ -49,8 +51,8 @@ body {
 /* header section ends */
 /* banner section starts */
 .banner {
-  margin: 50px 0;
-  padding: 96px 120px;
+  margin-top: 3rem;
+  padding: 4.75rem 3.75rem;
   background-color: #c6e4d6;
   border-radius: 25px;
   display: flex;
@@ -58,18 +60,21 @@ body {
   justify-content: space-between;
 }
 
+.banner-desc{
+  width: 50%;
+}
 .banner-desc h6 {
   color: #0e0e0e80;
-  font-size: 30px;
-  margin-bottom: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .banner-desc h1 {
   color: #0e0e0e;
-  font-size: 68px;
+  font-size: 3.5rem;
   font-weight: 700;
-  line-height: 80px;
-  margin-bottom: 30px;
+  line-height: 4.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .banner-btn {
@@ -78,7 +83,7 @@ body {
   padding: 15px 32px;
   border-radius: 10px;
   border: none;
-  font-size: 22px;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: 0.5s ease;
 }
@@ -89,78 +94,79 @@ body {
   border: 2px solid #006a50;
 }
 .banner-img {
-  width: 50%;
+  width: 43%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.banner-img img {
-  min-width: 569px;
-  min-height: 480px;
+.banner-img img{
+  width: 100%;
 }
+
 /* banner section starts */
 /* pillars section starts */
 .section-heading {
   color: #0e0e0e;
   font-weight: 700;
-  font-size: 48px;
-  margin-bottom: 50px;
+  font-size: 3rem;
+  margin-bottom: 3rem;
 }
 .pillars {
-  margin: 56px 0;
+  margin: 3rem 0;
 }
 .pillar-cards {
-  display: flex;
-  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:1.5rem;
 }
 
 .pillar-card {
   background-color: #ffffff;
-  border-radius: 20px;
-  padding: 20px;
+  border-radius: 1rem;
+  padding: 1rem;
   /* min-width: 362px; */
 }
 
 .pillar-card h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin: 20px 0px;
+  margin: 1.25rem 0;
 }
 
 .normal-text {
   color: ##0e0e0eb2;
   opacity: 70%;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 /* pillars section ends */
 
 /* vision section starts */
 .vision-cards {
-  margin: 50px 0;
-  display: flex;
-  gap: 25px;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 .vision-card-1 {
   background-color: #ccdbf7;
-  padding: 38px;
-  border-radius: 25px;
-  width: 492px;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 .card-heading {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin: 20px 0px;
+  margin: 1.5rem 0px;
 }
 
 .vision-btn-1 {
   padding: 14px 25px;
   border-radius: 12px;
   border: none;
-  margin-top: 50px;
+  margin-top: 2rem;
   background-color: #5490f5;
   color: #ffffff;
   font-size: 20px;
@@ -175,15 +181,14 @@ body {
 
 .vision-card-2 {
   background-color: #c6e4d6;
-  padding: 38px;
-  border-radius: 25px;
-  width: 492px;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 .vision-btn-2 {
   padding: 14px 25px;
   border-radius: 12px;
   border: none;
-  margin-top: 50px;
+  margin-top: 2rem;
   background-color: #09a15c;
   color: #ffffff;
   font-size: 20px;
@@ -196,15 +201,14 @@ body {
 }
 .vision-card-3 {
   background-color: #f7ebcf;
-  padding: 38px;
-  border-radius: 25px;
-  width: 492px;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 .vision-btn-3 {
   padding: 14px 25px;
   border-radius: 12px;
   border: none;
-  margin-top: 50px;
+  margin-top: 2rem;
   background-color: #ffc239;
   color: #ffffff;
   font-size: 20px;
@@ -218,10 +222,10 @@ body {
 /* vision section ends */
 /* quote section starts */
 .quote {
-  margin: 60px 0;
+  margin: 3.7rem 0;
   background-color: #ffffff;
-  border-radius: 25px;
-  padding: 50px 40px;
+  border-radius: 1rem;
+  padding: 3rem 1.8rem;
   border: 1px solid #bdbcbc80;
   position: relative;
 }
@@ -229,7 +233,7 @@ body {
 .quote-mark {
   color: #0e0e0e;
   position: absolute;
-  top: 30px;
+  top: 1.7rem;
 }
 .quote h5 {
   color: #0e0e0ecc;
@@ -242,32 +246,34 @@ body {
 
 .news-card {
   background-color: white;
-  border-radius: 25px;
-  padding: 45px;
+  border-radius: 1.5rem;
+  padding: 3rem;
   display: flex;
   align-items: center;
-  gap: 60px;
-  margin: 50px 0;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 3rem 0;
 }
 
+.news-img {
+  width: 35%;
+}
 .news-img img {
-  border-radius: 25px;
-  width: 490px;
-  height: 368px;
+  border-radius: 1.5rem;
+  width: 100%;
 }
-
 .desc-heading {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2rem;
 }
 .news-btn {
-  padding: 16px 32px;
-  font-size: 22px;
-  border-radius: 15px;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
   border: none;
   color: white;
   background-color: #006a50;
-  width: 182px;
+  width: 8.65rem;
   cursor: pointer;
   transition: 0.5s ease;
 }
@@ -277,20 +283,21 @@ body {
 }
 
 .news-desc {
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  gap: 14px;
+  gap: .7rem;
 }
 /* news section ends */
 /* donate section starts */
 .donate {
-  margin: 50px;
+  margin: 2.6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 36px;
+  gap: 2rem;
 }
 
 .donate p {
@@ -300,30 +307,31 @@ body {
 .donate-heading {
   color: #0e0e0e;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .taka {
-  display: flex;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 .taka-btn {
-  font-size: 36px;
+  font-size: 2.5rem;
   font-weight: 700;
-  border-radius: 20px;
+  border-radius: 1rem;
   background-color: #ffffff;
-  padding: 36px;
+  padding: 2.5rem;
   border: 1px solid #cacaca80;
   cursor: pointer;
   transition: 0.5s ease;
 }
 
 .taka-btn-1 {
-  font-size: 36px;
+  font-size: 2.5rem;
   font-weight: 700;
-  border-radius: 20px;
+  border-radius: 1rem;
   background-color: #b6e9c3;
-  padding: 36px;
+  padding: 2.5rem;
   border: 1px solid #cacaca80;
   cursor: pointer;
   transition: 0.5s ease;
@@ -336,8 +344,8 @@ body {
 }
 
 .donate input {
-  height: 77px;
-  width: 1240px;
+  width: 80%;
+  padding: 1.25rem 2.5rem;
   border: none;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
   font-size: 22px;
@@ -364,10 +372,10 @@ body {
 
 /* newsletter section starts */
 .newsletter {
-  margin: 60px 0;
-  padding: 60px;
+  margin: 3.5rem 0;
+  padding: 5rem 6.25rem;
   background-color: #c6e4d6;
-  border-radius: 25px;
+  border-radius: 1.5rem;
   text-align: center;
 }
 
@@ -386,23 +394,22 @@ body {
   margin-bottom: 42px;
 }
 .subscribe input {
-  width: 720px;
-  height: 66px;
+  width: 50%;
+  padding: 1.2rem 2rem;
   border: none;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  padding-left: 50px;
-  font-size: 18px;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  font-size: 1rem;
 }
 
 .subscribe button {
   background-color: #006a50;
-  padding: 21px 42px;
-  font-size: 22px;
+  padding: 1.2rem 2rem;
+  font-size: 1rem;
   color: white;
   border: none;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
   cursor: pointer;
   transition: 0.5s ease;
 }
@@ -411,7 +418,7 @@ body {
   color: black;
 }
 
-.subscribe h6 {
+.subscribe p {
   font-size: 22px;
   font-weight: 400;
 }
@@ -419,6 +426,8 @@ body {
 
 /* footer section starts */
 footer {
+  max-width: 1920px;
+  margin-top: 3rem auto;
   background-color: #ffffff;
   padding: 40px 0;
   display: flex;
@@ -440,3 +449,61 @@ footer {
   gap: 15px;
 }
 /* footer section ends */
+
+/* Responsiveness Styles */
+
+@media screen and (max-width:776px) {
+  .banner{
+    flex-direction: column;
+    padding: 1.75rem 1.25rem;
+    gap: 3rem;
+  }
+  .banner-desc{
+    width: 90%;
+  }
+  .banner-desc h1 {
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+  .banner-img {
+    width: 90%;
+  }
+  .section-heading {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .pillar-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem;
+  }
+  .vision-cards {
+    margin-top: 3rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+  .news-card {
+    padding: 1.5rem;
+    flex-direction: column;
+  }
+  .news-img {
+    width: 85%;
+  }
+  .news-desc {
+    width: 90%;
+  }
+  .taka {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .taka-btn, .taka-btn-1 {
+    font-size: 1.5rem;
+  }
+  .donate-heading {
+    font-size: 2rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+}
