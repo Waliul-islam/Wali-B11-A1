@@ -506,4 +506,8 @@ footer {
   .logo {
     font-size: 2rem;
   }
+  .subscribe {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }
